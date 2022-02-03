@@ -1,0 +1,21 @@
+#include <iostream.h>
+#include <conio.h>
+#include <math.h>
+
+//----------------------------------------------//
+char MyChar(long int num)
+{
+char a;
+if (num <= 9 && num >= 0) a = num + 48;
+    else if (num == 10) a = 'A';
+    else if (num == 11) a = 'B';
+    else if (num == 12) a = 'C';
+    else if (num == 13) a = 'D';
+    else if (num == 14) a = 'E';
+    else if (num == 15) a = 'F';
+return a;
+}
+//----------------------------------------------//
+long int Myflag(long int mabna ,char num[])
+{
+long int i = 0 , counter = 0;
